@@ -5,7 +5,7 @@
 <html lang="en">
 
     <head>
-    <title>Lesson 5</title>
+    <title>Digital Logic System</title>
     <link rel="stylesheet" href="styles.css">
 
     </head>
@@ -33,25 +33,126 @@
         <div>
 
         <h2 id="e">
-
+            Boolean algebra
         </h2>
 
         <p>
-            
+            Boolean algebra, named after George Boole, is a branch of mathematics that works with variables that have only two possible values: true and false, represented as 1 and 0. It focuses on the manipulation of these binary values and forms the foundation for analyzing and simplifying digital circuits and logic gates. Instead of arithmetic operations, Boolean algebra uses logical operators such as AND, OR, and NOT, making it essential in digital electronics, modern programming languages, set theory, and statistics.
+        </p>
+
+        <p>
+            One of the fundamental operations in Boolean algebra is the AND (conjunction) function, which takes two or more Boolean inputs and produces a single output. The output is 1 only when all input values are 1; if any input is 0, the output is 0. The AND operation is symbolized by a dot (·), the ∧ symbol, or by writing variables together, such as a·b, a ∧ b, or ab, and is commonly referred to as the Boolean product.
+        </p>
+
+        <p>
+            The OR (disjunction) function in Boolean algebra operates on two or more Boolean inputs and produces an output of 1 if at least one of the inputs is 1. The output is 0 only when all input values are 0. This operation is represented by the plus (+) symbol or the ∨ symbol, such as a + b or a ∨ b, and is commonly referred to as the Boolean sum.
+        </p>
+
+        <p>
+            The NOT (negation) function in Boolean algebra operates on a single input and produces the opposite value of that input. When the input is 0, the output is 1, and when the input is 1, the output is 0. The NOT operation can be represented in several ways, including a′, ~a, !a, /a, or a̅, and it serves as a fundamental building block for creating more complex Boolean functions.
         </p>
     </div>
 
     <div>
 
-        <h3 id="f">
-
-        </h3>
+        <h2 id="e">
+            Boolean Expression
+        </h2>
 
         <p>
-            
+            A logical statement that results in a Boolean value, either True or False. Sometimes, synonyms are used to express the statement such as ‘Yes’ for ‘True’ and ‘No’ for ‘False’. Also, 1 and 0 are used for digital circuits for True and False, respectively. Boolean expressions are statements that use logical operators, i.e., AND, OR, XOR, and NOT. Thus, if we write 1 AND 1 = 1, then it is a Boolean expression.
         </p>
     </div>
 
+    <div>
+
+        <h2 id="e">
+            Truth Tables
+        </h2>
+
+        <p>
+            A truth table is a useful tool for representing the output of a Boolean function for every possible combination of input values. It lists all possible values of the logical variables and shows how different input combinations affect the output. Boolean equations can be easily converted into truth tables, making them helpful for analyzing both simple and complex logic functions.Truth tables are a nice way to show how these fundamental functions work and most useful when
+used to specify the behavior of more complex functions.
+        </p>
+    </div>
+
+    <div>
+
+        <h2 id="e">
+            Logic gates 
+        </h2>
+
+        <p>
+            Logic gates are fundamental components of digital circuits that perform logical operations based on Boolean algebra. They are implemented within integrated circuit chips, where input pins receive binary signals from other parts of a circuit or external sources, and an output pin delivers the resulting signal. Each logic gate processes one or more binary inputs (0 or 1) to produce a single binary output, making decisions based on the combination of inputs provided.
+        </p>
+
+        <p>
+            Logic gates can be built using electrical circuits, transistors, resistors, or even optical devices, and they are essential for executing the logical operations required in digital systems. Most logic gates have two inputs and one output, with the simplest gate being the inverter, which performs the NOT operation. By combining different types of logic gates, complex digital circuits can be designed to carry out a wide range of computational tasks.
+        </p>
+
+        <h3 id="f">
+            1. AND Gate:
+        </h3>
+
+        <p>
+         It produces an output of 1 (or TRUE) only if all its inputs are 1; otherwise, it produces
+an output of 0 (or FALSE).
+        </p>
+
+        <h3 id="f">
+             AND Gate
+        </h3>
+
+        <p>
+         It produces an output of 1 (or TRUE) only if all its inputs are 1; otherwise, it produces
+an output of 0 (or FALSE).
+        </p>
+
+        <h3 id="f">
+             OR Gate
+        </h3>
+
+        <p>
+         This gate produces an output of 1 if at least one of its inputs is 1. It only produces an
+output of 0 if all inputs are 0.
+        </p>
+
+        <h3 id="f">
+             NOT Gate (Inverter)
+        </h3>
+
+        <p>
+         It has only one input and produces the opposite (complementary) value at
+the output. If the input is 1, the output is 0, and vice versa.
+        </p>
+
+        <h3 id="f">
+           NAND Gate
+        </h3>
+
+        <p>
+        This gate is a combination of an AND gate followed by a NOT gate. It produces the
+opposite result of an AND gate; its output is 0 only when all inputs are 1.
+        </p>
+
+        <h3 id="f">
+            NOR Gate
+        </h3>
+
+        <p>
+         Similar to a combination of an OR gate followed by a NOT gate, this gate produces an
+output of 1 only if all inputs are 0.
+        </p>
+
+        <h3 id="f">
+             XOR Gate (Exclusive OR):
+        </h3>
+
+        <p>
+        It produces an output of 1 if the number of 1 inputs is odd; otherwise,
+it produces an output of 0.
+        </p>
+    </div>
 
 </body>
 
